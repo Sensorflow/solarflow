@@ -17,7 +17,7 @@ public:
   static Sensor* fromConfig(void *);
 private:
   char name_[10];
-  float values_[4];
+  float values_[2];
   Adafruit_INA219 *sensor_;
 };
 
